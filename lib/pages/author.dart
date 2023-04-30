@@ -22,10 +22,13 @@ class AuthorPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Image.network(
-              authorImage,
-              height: 200,
-              fit: BoxFit.cover,
+            Hero(
+              tag: 'profile-page',
+              child: Image.network(
+                authorImage,
+                height: 200,
+                fit: BoxFit.cover,
+              ),
             ),
             const SizedBox(height: 16),
             Text(
@@ -39,6 +42,15 @@ class AuthorPage extends StatelessWidget {
               style: const TextStyle(fontSize: 16),
               textAlign: TextAlign.center,
             ),
+            const SizedBox(height: 35),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: const [
+                Icon(Icons.facebook, size: 34),
+                Icon(Icons.mail, size: 34),
+                Icon(Icons.phone_android, size: 34),
+              ],
+            )
           ],
         ),
       ),

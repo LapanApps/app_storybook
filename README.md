@@ -1,6 +1,12 @@
 # app_storybook
 
-A new Flutter project.
+In this module, we will learn about:
+
+- Navigation (Materiol and Cupertino)
+- `Hero` widget
+- `CircleAvatar` widget with `NetworkImage`
+- GestureDetector (make a widget clickable)
+- etc.
 
 ## Getting Started
 
