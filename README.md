@@ -8,6 +8,12 @@ In this module, we will learn about:
 - GestureDetector (make a widget clickable)
 - etc.
 
+> **Note** Best view in mobile.
+
+> **Note** When building for **web**, pass along the args `--web-renderer html` so that network image can load.
+
+---
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
